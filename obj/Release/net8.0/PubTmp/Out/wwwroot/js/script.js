@@ -114,42 +114,31 @@ function enableButton() {
     submitButton.disabled = false; 
     submitButton.style.display = 'inline-block';  
     loading.style.display = 'none'; 
-
 }
+
 function submitForm() {
-    // Prevent default form submission
     event.preventDefault();
     dissableButton();
 
-    // Get the form data
     var formData = new FormData(document.getElementById('my-contact-form'));
 
     // Create AJAX request
     var xhr = new XMLHttpRequest();
     xhr.open("POST", "/Home/Index", true);
-
-    // Set up a callback for success and error
     xhr.onload = function () {
         enableButton();
-        if (xhr.status === 200) {
-            // Success: Clear the form and show success message
+        if (xhr.status === 200) {//sucess
             document.getElementById('my-contact-form').reset();
             alert("Your message has been sent successfully!");
 
-        } else {
-            // Failure: Show error message
+        } else {//error
             alert("There was an error sending your message. Please try again.");
-
         }
-
     };
-
     xhr.onerror = function () {
-        // Handle error if AJAX fails
         alert("Request failed. Please try again.");
     };
 
-    // Send the form data
     xhr.send(formData);
 }
 

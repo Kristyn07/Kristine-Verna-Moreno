@@ -262,7 +262,7 @@
     </section>
     
     <!--PROJECTS-->
-    <section id="project" class="my-home container-fluid">
+    <section id="project" class="my-home container-fluid py-4">
         <div class="container-lg px-0">
             <div class="container-lg py-4 px-0">
                 <h1 class="pb-2 text-center">RECENT PROJECTS</h1>
@@ -312,9 +312,9 @@
     </section>
 
     <!--CONTACT-->
-    <section id="contact" class="my-contact container-fluid px-0">
+    <section id="contact" class="my-contact container-fluid px-0 mb-3">
         <div class="container-lg px-0" >
-            <div class="d-flex container-lg py-3 px-4 row justify-content-center mx-0">
+            <div class="d-flex container-lg py-4 px-4 row justify-content-center mx-0">
                 <div class=" col-md-6 col-12 p-0">
                     <div class="title  text-center  text-md-start ">CONTACT</div>
                     <div class="newLine"></div>
@@ -358,7 +358,7 @@
                             @Html.TextAreaFor(model => model.Body, new { @id = "message-body", @class = "form-control my-border mt-2", @rows = "7", @placeholder = "Message*", @required = "required"})
                             <span asp-validation-for="Body" class="text-danger"></span>
                         </div>
-                        <div class="text-center text-md-start m-0 p-0">
+                        <div class="submit-div text-center text-md-start m-0 p-0">
                             <input class="btn my-contact-btn my-2 my-border " type="submit" value="Send Email" id="submit-btn">
                             <div class="load">
                                 <div class="spinner-grow spinner-grow-sm" role="status">

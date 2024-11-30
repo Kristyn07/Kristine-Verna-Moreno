@@ -12312,6 +12312,9 @@ header .my-nav-btn {
 #contact .sub-title {
   font-size: 20px;
 }
+#contact .submit-div {
+  height: 50px;
+}
 #contact .my-border {
   border-radius: 10px;
   background-color: var(--input-feild-bg-color);
@@ -12338,7 +12341,7 @@ header .my-nav-btn {
   height: 10%;
 }
 #contact .load {
-  display: none;
+  display: inline;
   color: #c762f6;
   align-items: end;
 }

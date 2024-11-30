@@ -272,7 +272,10 @@ header {
     .sub-title {
         font-size: 20px;
     }
+    .submit-div{
+        height:50px;
 
+    }
     .my-border {
         border-radius: 10px;
         background-color: var(--input-feild-bg-color);
@@ -304,7 +307,7 @@ header {
         height: 10%;
     }
     .load {
-        display: none;
+        display: inline; //none
         color: $color-purple;
         align-items: end;
     }

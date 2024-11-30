@@ -19,6 +19,8 @@ namespace KristineVernaMorenoV1._2.Controllers
         {
             return View();
         }        
+        
+        
         [HttpPost]
         // Contact Form
         public IActionResult Index(KristineVernaMorenoV1._2.Models.HomeModel model)

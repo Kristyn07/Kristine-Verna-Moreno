@@ -1,0 +1,182 @@
+﻿/*#region IMG*/
+$my-photo: url(../images/tyn.png);
+$my-logo: url(../images/logo.png);
+
+/*#endregion*/
+
+/*#region FILES*/
+$my-cv: url(../docs/KristineVernaMoreno_CV_JSE.pdf);
+/*#endregion*/
+
+/*#region FONT STYLE*/
+$main-font-style: 'SourceCodePro_Regular';
+$main-font-style-semibold: 'SourceCodePro_SemiBold';
+$main-font-style-extrabold: 'SourceCodePro_ExtraBold';
+/*#endregion*/
+
+/*#region PURPLE*/
+$color-purple: #c762f6;
+
+//Tint-Lighten
+$color-purple-tint-6: #cf78f7;
+$color-purple-tint-5: #d78ff9;
+$color-purple-tint-4: #dfa5fa;
+$color-purple-tint-3: #e7bcfb;
+$color-purple-tint-2: #efd2fc;
+$color-purple-tint-1: #f7e9fe;
+//Shade-darken
+$color-purple-shade-6: #ab54d3;
+$color-purple-shade-5: #8e46b0;
+$color-purple-shade-4: #72388d;
+$color-purple-shade-3: #552a69;
+$color-purple-shade-2: #391c46;
+$color-purple-shade-1: #1c0e23;
+//tone hue gray-white
+$color-purple-tone-6: #bd66e5;
+$color-purple-tone-5: #b36bd4;
+$color-purple-tone-4: #a96fc3;
+$color-purple-tone-3: #9e73b3;
+$color-purple-tone-2: #9477a2;
+$color-purple-tone-1: #8a7c91;
+/*#endregion*/
+
+/*#region CYAN*/
+$color-cyan: #00FFFF;
+
+//Tint-Lighten
+$color-cyan-tint-6: #24ffff;
+$color-cyan-tint-5: #49ffff;
+$color-cyan-tint-4: #6dffff;
+$color-cyan-tint-3: #92ffff;
+$color-cyan-tint-2: #b6ffff;
+$color-cyan-tint-1: #dbffff;
+//Shade-darken
+$color-cyan-shade-6: #00dbdb;
+$color-cyan-shade-5: #00b6b6;
+$color-cyan-shade-4: #009292;
+$color-cyan-shade-3: #006d6d;
+$color-cyan-shade-2: #004949;
+$color-cyan-shade-1: #002424;
+//tone hue gray-white
+$color-cyan-tone-6: #12eded;
+$color-cyan-tone-5: #25dbdb;
+$color-cyan-tone-4: #37c9c9;
+$color-cyan-tone-3: #49b6b6;
+$color-cyan-tone-2: #5ba4a4;
+$color-cyan-tone-1: #6e9292;
+/*#endregion*/
+
+/*#region WHITE - BLACK*/
+
+//LIGHT
+$color-light: #ffffff;
+$color-main-light-8: #7e7e7e;
+$color-main-light-7: #bcbcbc;
+$color-main-light-6: #cac9c8;
+$color-main-light-5: #e2e2e2;
+$color-main-light-4: #ebebeb;
+$color-main-light-3: #f1f1f1;
+$color-main-light-2: #fbfbfb;
+$color-main-light-1: #ffffff;
+
+//DARK
+$color-dark: #000000;
+$color-main-dark-8: #636466;
+$color-main-dark-7: #48494a;
+$color-main-dark-6: #3f3f40;
+$color-main-dark-5: #343536;
+$color-main-dark-4: #2d2d2f;
+$color-main-dark-3: #242426;
+$color-main-dark-2: #19191a;
+$color-main-dark-1: #090609;
+
+/*#endregion*/
+
+/*#region SHADOW*/
+$text-shadow-light: 2px 2px 4px rgba(0, 0, 0, 0.25); // Subtle shadow
+/*#endregion*/
+
+
+
+//light mode
+$reverse-text-color-light: #ffffff;
+$header-a-light: $color-purple;
+$header-line-light: $color-cyan;
+$skills-container-light: #ffffff;
+
+//dark mode
+$reverse-text-color-dark: #000000;
+$header-a-dark: $color-cyan;
+$header-line-dark: $color-purple;
+$skills-container-dark: #1B1D21;
+
+
+
+/* Light Mode Button */
+:root {
+    --my-body-bg: #{$color-main-light-3};
+    --bs-text-color: #{$color-main-dark-3};
+    --bs-reverse-text-color: #{$color-main-light-3};
+    //header
+    --bs-header-bg: #{$color-main-light-2};
+    --bs-header-a-hover: #{$color-cyan-shade-4};
+    --bs-header-line-button-hover: #{$color-purple};
+    //intro
+    --name-text-color: #{$color-cyan-shade-6};
+    --software-engineer-text-color: #{$color-purple-shade-6};
+    --intro-color-btn: #{$color-purple};
+    --intro-hover-color-btn: #{$color-cyan-shade-6};
+    //about
+    --about-bg-color: #{$color-main-light-4};
+    --who-am-i-container: #{$color-main-light-2};
+    //skills
+    --skills-bg-color: #{$color-main-light-5};
+    --skills-card-color: #{$color-main-light-2};
+    --skills-border-color-cardmain: #($color-cyan-shade-4);
+    //recent project
+    --project-bg-color: #{$color-main-light-2};
+    --line-color: #{$color-cyan-shade-6};
+    //contact
+    --bg-color-btn-contact: #{$color-main-light-4};
+    --color-btn-contact: #{$color-main-dark-2};
+    --input-feild-bg-color: #{$color-main-light-5};
+    --form-bg-color: #{$color-main-light-5};
+    //footer
+    --cc-text-color: #{$color-cyan-shade-6};
+    --footer-bg: #{$color-main-light-2};
+}
+
+/* Dark Mode Button */
+[data-bs-theme="dark"] {
+    --my-body-bg: #{$color-main-dark-3};
+    --bs-text-color: #{$color-main-light-3};
+    --bs-reverse-text-color: #{$color-main-dark-3};
+    //header
+    --bs-header-bg: #{$color-main-dark-2};
+    --bs-header-a-hover: #{$color-cyan-tint-4};
+    --bs-header-line-button-hover: #{$color-purple};
+    //intro
+    --name-text-color: #{$color-cyan-tint-6};
+    --software-engineer-text-color: #{$color-purple-tint-6};
+    --intro-color-btn: #{$color-purple};
+    --intro-hover-color-btn: #{$color-cyan-tint-6};
+    //about
+    --about-bg-color: #{$color-main-dark-4};
+    --who-am-i-container: #{$color-main-dark-2};
+    //skills
+    --skills-bg-color: #{$color-main-dark-5};
+    --skills-card-color: #{$color-main-dark-2};
+    --skills-border-color-card: #($color-cyan-tint-4);
+    //recent project
+    --project-bg-color: #{$color-main-dark-2};
+    --line-color: #{$color-cyan-tint-6};
+    //contact
+    --bg-color-btn-contact: #{$color-main-dark-2};
+    --color-btn-contact: #{$color-main-light-4};
+    --input-feild-bg-color: # {$color-main-dark-5};
+    --form-bg-color: #{$color-main-dark-5};
+    //footer
+    --cc-text-color: #{$color-cyan-tint-6};
+    --footer-bg: #{$color-main-dark-2};
+}
+

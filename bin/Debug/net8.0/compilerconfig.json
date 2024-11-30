@@ -1,0 +1,9 @@
+﻿{
+  "outputDir": "wwwroot/css",
+  "files": [
+    {
+      "inputFile": "sass/main.scss",
+      "outputFile": "wwwroot/css/main.css"
+    }
+  ]
+}

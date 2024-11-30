@@ -1,0 +1,406 @@
+﻿@model KristineVernaMorenoV1._2.Models.HomeModel
+@* My Portfolio *@
+
+<!--Navigation / Header-->
+<header >
+    <nav class="navbar navbar-expand-md navbar-light p-2">
+        <div class="container-xxl">
+            <!--Logo-->
+            <div class=" logo col-2 m-0 p-0" >
+            <a href="#intro" class="navbar-brand align-items-center">
+                <img src="/images/logo.png" title="logo">
+            </a>
+            </div>
+            <!-- toggle button for mobile nav -->
+            <button class="navbar-toggler my-nav-btn" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!--nav bar links-->
+            <div class=" p-0 collapse navbar-collapse align-items-center justify-content-between " id="main-nav">
+                <ul class="navbar-nav mx-auto ">
+                    <li class="nav-item mx-3 mx-lg-4 align-self-center ">
+                        <a class="nav-link" href="#" aria-label="home">HOME</a>
+                    </li>
+                    <li class="nav-item mx-3 mx-lg-4 align-self-center">
+                        <a class="nav-link" href="#about" aria-label="about">ABOUT</a>
+                    </li>
+                    <li class="nav-item mx-3 mx-lg-4 align-self-center">
+                        <a class="nav-link" href="#tech-stack" aria-label="skill">SKILL</a>
+                    </li>
+                    <li class="nav-item mx-3 mx-lg-4 align-self-center">
+                        <a class="nav-link" href="#project" aria-label="project">PROJECT</a>
+                    </li>
+                    <li class="nav-item mx-3  mx-lg-4 align-self-center">
+                        <a class="nav-link" href="#contact" aria-label="contact">CONTACT</a>
+                    </li> 
+                </ul>
+                <div class="mode nav-item ">
+                    <div class="d-flex justify-content-end">
+                        <!--Light-->
+                        <button id="toggle-light" type="button" class="btn go-to-dark-mode btn-mode-style" style="display:none" aria-label="Switch to dark mode">
+                            <i class="bi bi-brightness-high-fill "></i>
+                        </button>
+                        <!--Dark-->
+                        <button id="toggle-dark" type="button" class="btn go-to-light-mode btn-mode-style" style="display:none" aria-label="Switch to light mode">
+                            <i class="bi bi-moon-stars-fill"></i>                        
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+</header>
+<!--HOME|ABOUT|SKILL|PROJECT|CONTACT-->
+<main> 
+
+    <!--HOME || Intro-->
+    <section id="home" class="my-home container-fluid">
+        <div class="container-lg py-4">
+            <div class="row justify-content-center">
+                <div class="col-md text-center text-md-start align-content-center">
+                    <div class="my-1">
+                        <div class="py-1">Hey There!</div>
+                        <div class="display-5 name">I'm Kristine,</div>
+                        <div class="se">Aspiring Software Engineer</div>
+                    </div>
+                    <p class="lead py-1">
+                        Coding the Future: Crafting Digital
+                        Solutions, One Line of Code at a
+                        Time - Create, Innovate, and Drive
+                        Technological Progress by Crafting
+                        Digital Solutions and Pushing
+                        the Boundaries of Possibility.
+                    </p>
+                    <div class="my-2">
+                        <a href="https://github.com/Kristyn07" target="_blank" class="btn btn-style btn-sm me-1" aria-label="github">
+                            <i class="bi bi-github"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/kristine-verna-moreno/" target="_blank" class="btn btn-style btn-sm me-1" aria-label="link in">
+                            <i class="bi bi-linkedin"></i>
+                        </a>
+                        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=kristinevernamoreno1@gmail.com" target="_blank" class="btn btn-style btn-sm me-1" aria-label="mail">
+                            <i class="bi bi-envelope-at-fill"></i>
+                        </a>
+                        <a href="../../docs/KristineVernaMoreno_CV_JSE.pdf" class="btn btn-style btn-sm me-1" download="KristineVernaMoreno.pdf" aria-label="CV">
+                            Download CV
+                        </a>
+                    </div>
+                </div>
+        
+                <div class="col-md-6 align-self-center">
+                    <span  data-bs-placement="bottom">
+                        <img class="img-fluid intro" src="../images/tyn1.png" alt="ebook cover">
+                    </span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--ABOUT-->
+    <section id="about" class="my-home container-fluid">
+        <div class="container-lg py-5">
+            <div class="row justify-content-center who-am-i ">
+                <div class="container-lg p-4 ">
+                    <div class="titleSection">
+                        <h6>WHO AM I</h6>
+                        <div class="line"></div>
+                        <p>ABOUT</p>
+                        <div class="newLine"></div>
+                    </div>
+                    My journey into Software Engineering began with the thrill of writing my first line of code—a simple yet profound "Hello World" program. This experience opened my eyes to the vast possibilities of software development, making me realize that coding is not just a skill but a language through which I can interact with machines and solve complex problems.
+                    <br><br>
+                    Despite my current role being in a different industry, my passion for software engineering continues to drive me. I am committed to leveraging my strong foundation in computer science, my love for mathematics, and my problem-solving skills to embark on a career in software engineering. I am eager to learn, collaborate, and innovate within the tech industry.
+                    <br><br>
+                    If you are seeking a dedicated and enthusiastic individual with a genuine passion for software engineering, I would love to connect. I am excited about the opportunity to apply my skills, enthusiasm, and commitment to making a meaningful impact in the world of technology. Together, we can craft digital solutions, one line of code at a time, and contribute to advancements in the field.
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!--TECH STACK-->
+    <section id="tech-stack" class="my-skills container-fluid  py-4">   
+        <div class="container-lg py-2 px-0">
+            <div class="text-center skill-title">
+                <h2>TECH STACK</h2>
+                <div class="d-flex justify-content-center align-items-center ">
+                    <div class="line"></div>                
+                    <div class="line flip"></div>
+                </div>
+                <p>Skills</p>
+            </div>
+            <div class=" align-items-center justify-content-between p-0"  >
+                <div class="p-0">
+                    <!--PROGRAMMING LANGUAGES-->
+                    <div class="main-prog">
+                        <div class="card-body text-center py-1 px-0">
+                            <h5 class="card-title ">PROGRAMMING LANGUAGES</h5>
+                            <div class="p-1"></div>
+                            <div class=" d-flex flex-wrap justify-content-evenly ">
+                                <div class="col-12 col-md-3 card-layout justify-content-center align-items-center">
+                                    <div class="bg-img justify-content-center align-items-center">
+                                        <img src="/images/programminglanguage/C_sharp.png" alt="C Sharp" />
+                                    </div>
+                                    <h6 class="card-title">C#</h6>
+                                    <p class="text-muted">A powerful programming language used for developing a variety of applications, including desktop software, web services, and games with Unity. It's part of the .NET framework and is known for being efficient, scalable, and easy to use for building reliable, high-performance applications.</p>
+                                </div>
+                                <div class="col-12 col-md-3 card-layout justify-content-center align-items-center">
+                                    <div class="bg-img justify-content-center align-items-center">
+                                        <img src="/images/programminglanguage/JavaScript.png" alt="JavaScript" />
+                                    </div>
+                                    <h6 class="card-title m-1">JavaScript</h6>
+                                    <p class="text-muted"> a key language for web development, allowing you to create interactive and dynamic websites. It's used for client-side scripting, enabling real-time updates, form validation, and engaging user experiences. JavaScript works on both the front-end and back-end (with Node.js) to build full-featured web applications.</p>
+                                </div>
+                                <div class="col-12 col-md-3 card-layout justify-content-center align-items-center">
+                                    <div class="bg-img justify-content-center align-items-center">
+                                        <img src="/images/programminglanguage/SQL.png" alt="SQL" />
+                                    </div>
+                                    <h6 class="card-title">SQL</h6>
+                                    <p class="text-muted">used to manage and interact with databases. It allows you to retrieve, update, and organize data stored in relational databases. SQL is essential for backend development, enabling you to work with large datasets and perform tasks like querying, filtering, and updating information efficiently.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Technologies & Tools-->
+                    <div class="technology-tools">
+                        <div class="card-body text-center py-1 px-0">
+                            <h5 class="card-title ">
+                                FRAMEWORK, TECHNOLOGIES AND TOOLS
+                            </h5>
+                            <div class="p-1"></div>
+                            <div class=" d-flex flex-wrap justify-content-center ">
+                                <div class="card-layout justify-content-center align-items-center m-1">
+                                    <div class="other-tech">
+                                        <div class="bg-img other-tech justify-content-center align-items-center">
+                                            <img src="/images/techstack/net.png" alt=".Net" />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-layout justify-content-center align-items-center m-1">
+                                    <div class="other-tech">
+                                        <div class="bg-img other-tech justify-content-center align-items-center">
+                                            <img src="/images/techstack/bootstrap.png" alt="Bootstrap" />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-layout justify-content-center align-items-center m-1">
+                                    <div class="other-tech">
+                                        <div class="bg-img other-tech justify-content-center align-items-center">
+                                            <img src="/images/techstack/angular.png" alt="Angular" />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-layout justify-content-center align-items-center m-1">
+                                    <div class="other-tech">
+                                        <div class="bg-img other-tech justify-content-center align-items-center">
+                                            <img src="/images/techstack/HTML5_Badge.png" alt="HTML" />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class=" card-layout justify-content-center align-items-center m-1">
+                                    <div class="other-tech">
+                                        <div class="bg-img other-tech justify-content-center align-items-center">
+                                            <img src="/images/techstack/CSS.png" alt="CSS" />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-layout justify-content-center align-items-center m-1">
+                                    <div class="other-tech">
+                                        <div class="bg-img other-tech justify-content-center align-items-center">
+                                            <img src="/images/techstack/sass.png" alt="SASS" />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class=" card-layout justify-content-center align-items-center m-1">
+                                    <div class="other-tech">
+                                        <div class="bg-img other-tech justify-content-center align-items-center">
+                                            <img src="/images/techstack/VisualStudio.png" alt="Visual Studio" />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class=" card-layout justify-content-center align-items-center m-1">
+                                    <div class="other-tech">
+                                        <div class="bg-img other-tech justify-content-center align-items-center">
+                                            <img src="/images/techstack/VisualStudioCode.png" alt="Visual Studio Code" />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class=" card-layout justify-content-center align-items-center m-1">
+                                    <div class="other-tech">
+                                        <div class="bg-img other-tech justify-content-center align-items-center">
+                                            <img src="/images/techstack/ssms.png" alt="Microsoft SQL Server Management Studio (SSMS)" />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class=" card-layout justify-content-center align-items-center m-1">
+                                    <div class="other-tech">
+                                        <div class="bg-img other-tech justify-content-center align-items-center">
+                                            <img src="/images/techstack/unity.png"  alt="Unity" />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class=" card-layout justify-content-center align-items-center m-1">
+                                    <div class="other-tech">
+                                        <div class="bg-img other-tech justify-content-center align-items-center">
+                                            <img src="/images/techstack/github.png" alt="Github" />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class=" card-layout justify-content-center align-items-center m-1">
+                                    <div class="other-tech">
+                                        <div class="bg-img other-tech justify-content-center align-items-center">
+                                            <img src="/images/techstack/Figma-logo.png" alt="Figma" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!--PROJECTS-->
+    <section id="project" class="my-home container-fluid">
+        <div class="container-lg px-0">
+            <div class="container-lg py-4 px-0">
+                <h1 class="pb-2 text-center">RECENT PROJECTS</h1>
+                <div class="row row-cols-1 row-cols-md-3 g-4 justify-content-between">
+                    <div class="col postcard">
+                        <div class="card h-100">
+                            <img src="/images/iweb.png" class="card-img-top postcard-img" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <div class="postcard-bar"></div>
+                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            </div>
+                            <div class="card-footer">
+                                <small class="text-muted">Last updated 3 mins ago</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col postcard">
+                        <div class="card h-100">
+                            <img src="/images/iweb.png" class="card-img-top postcard-img" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <div class="postcard-bar"></div>
+                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            </div>
+                            <div class="card-footer">
+                                <small class="text-muted">Last updated 3 mins ago</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col postcard">
+                        <div class="card h-100">
+                            <img src="/images/iweb.png" class="card-img-top postcard-img" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <div class="postcard-bar"></div>
+                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            </div>
+                            <div class="card-footer">
+                                <small class="text-muted">Last updated 3 mins ago</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--CONTACT-->
+    <section id="contact" class="my-contact container-fluid px-0">
+        <div class="container-lg px-0" >
+            <div class="d-flex container-lg py-3 px-4 row justify-content-center mx-0">
+                <div class=" col-md-6 col-12 p-0">
+                    <div class="title  text-center  text-md-start ">CONTACT</div>
+                    <div class="newLine"></div>
+                    <div class="sub-title text-center  text-md-start">
+                        <p><b>EMAIL:</b> <u>kristinevernamoreno1@gmail.com </u></p>
+                    </div>
+                    <div class="sub-title text-center  text-md-start">
+                        <p><b>BASE IN:</b> NCR, Philippines </p>
+                    </div>
+                    <div class="newLine"></div>
+
+                    <div class="links-btn text-center  text-md-start">
+                        <a href="https://github.com/Kristyn07" target="_blank" class="btn my-contact-btn btn-m me-1" aria-label="github">
+                            <i class="bi bi-github"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/kristine-verna-moreno/" target="_blank" class="btn my-contact-btn btn-m me-1" aria-label="link in">
+                            <i class="bi bi-linkedin"></i>
+                        </a>
+                        <a href="../../docs/KristineVernaMoreno_CV_JSE.pdf" class="btn my-contact-btn btn-m me-1" download="KristineVernaMoreno.pdf" aria-label="VC">
+                            Download CV
+                        </a>
+                    </div>
+                    <div class="newLine"></div>
+                </div>
+                <div class=" col-md-6 col-12 ">
+                    <form class="  row d-flex contact-form" onsubmit="submitForm()" method="post" id="my-contact-form" name="contact-form">
+                        <div class="title text-center  text-md-start m-0 p-0 ">Let's Get In Touch!</div>
+                        <div class="form-group p-0 m-0">
+                            @Html.TextBoxFor(model => model.Name, new { @id = "name", @class = "form-control my-2 my-border",  @placeholder = "Name*", @required = "required" })
+                            <span asp-validation-for="Name" class="text-danger"></span>
+                        </div>
+                        <div class="form-group p-0 m-0">
+                            @Html.TextBoxFor(model => model.MailTo, new { @id = "mail-to", @class = "form-control my-2 my-border", @type = "email", @placeholder = "Email*", @required = "required" })
+                            <span asp-validation-for="MailTo" class="text-danger"></span>
+                        </div>
+                        <div class="form-group p-0 m-0">
+                            @Html.TextBoxFor(model => model.Subject, new { @id = "subject", @class = "form-control my-2 my-border", @placeholder = "Subject*", @required = "required" })
+                            <span asp-validation-for="Subject" class="text-danger"></span>
+                        </div>
+                        <div class="form-group p-0 m-0">
+                            @Html.TextAreaFor(model => model.Body, new { @id = "message-body", @class = "form-control my-border mt-2", @rows = "7", @placeholder = "Message*", @required = "required"})
+                            <span asp-validation-for="Body" class="text-danger"></span>
+                        </div>
+                        <div class="text-center text-md-start m-0 p-0">
+                            <input class="btn my-contact-btn my-2 my-border " type="submit" value="Send Email" id="submit-btn">
+                            <div class="load">
+                                <div class="spinner-grow spinner-grow-sm" role="status">
+                                    <span class="sr-only"></span>
+                                </div>
+                                <div class="spinner-grow spinner-grow-sm" role="status">
+                                    <span class="sr-only"></span>
+                                </div>
+                                <div class="spinner-grow spinner-grow-sm" role="status">
+                                    <span class="sr-only"></span>
+                                </div>
+                            </div>
+                       </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+<!--FOOTER-->
+<footer id="foot" class=" container-fluid mt-4 py-2">
+    <div class="  d-flex column container-lg px-0">
+        <div class=" col-md-12">
+            <div class="title">Site Map</div>
+            <ul class=" d-flex container-lg p-0">
+                <li class="row no-bullet site-map-link col-md-4">
+                    <a href="#" aria-label="home">Home</a>
+                    <a href="#about" aria-label="about">About</a>
+                </li>
+                <li class="row no-bullet site-map-link col-md-4 align-text-top">
+                    <a href="#tech-stack" aria-label="skill">Skill</a>
+                    <a href="#project" aria-label="project">Project</a>
+                </li>
+                <li class="row no-bullet site-map-link col-md-4 align-text-top">
+                    <a href="#contact" aria-label="contact">Contact</a>
+                    <a href="https://github.com/Kristyn07/KristineVernaMorenoV1.2" target="_blank">Github (Source Code) </a>
+                </li>
+            </ul>
+            <div class="cc text-center">
+                <i class="bi bi-cc-circle"></i> 2024 by Kristine Verna Moreno
+            </div>
+        </div>
+    </div>
+</footer>

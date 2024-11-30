@@ -1,0 +1,357 @@
+﻿
+@import 'reset.scss';
+@import 'variable.scss';
+@import 'mixin.scss';
+@import '../../node_modules/bootstrap/scss/bootstrap';
+
+body {
+    color: var(--bs-text-color);
+    background-color: var(--my-body-bg);
+    overflow-x:hidden;
+}
+
+header {
+    font-family: $main-font-style;
+    background-color: var(--bs-header-bg);
+
+    .logo img {
+        width: auto;
+        height: 30px;
+    }
+
+    a.nav-link {
+        color: var(--bs-text-color);
+
+        &:hover {
+            color: var(--bs-header-a-hover);
+        }
+
+        &::after {
+            content: ' ';
+            position: absolute;
+            width: 100%;
+            height: 2px;
+            bottom: -1px;
+            left: 0;
+            background-color: transparent;
+            transition: background-color 0.3s ease;
+        }
+
+        &:hover::after {
+            background-color: var(--bs-header-line-button-hover);
+        }
+    }
+
+    .btn-mode-style {
+        color: var(--bs-text-color);
+        opacity: .5;
+        transition: transform 0.2s ease, background-color 0.2s ease;
+        outline: none;
+
+        &:hover {
+            color: $color-purple;
+            opacity: 1;
+            transform: scale(1.15);
+        }
+
+        &:active {
+            border: none
+        }
+    }
+
+    .my-nav-btn {
+        border: none;
+
+        &:active {
+        }
+    }
+}
+
+#home {
+
+    .btn-style {
+        background-color: var(--intro-color-btn);
+        color: var(--bs-text-color);
+        border-radius: 10px;
+        transition: transform 0.2s ease, background-color 0.2s ease;
+
+        &:hover {
+            background-color: var(--intro-hover-color-btn);
+            color: var(--bs-reverse-text-color);
+            transform: scale(1.05);
+        }
+    }
+
+    .name {
+        color: var(--name-text-color);
+        font-family: $main-font-style-semibold;
+        //text-shadow: $text-shadow-light;
+    }
+
+    .se {
+        font-size: 25px;
+        color: var(--software-engineer-text-color);
+        font-family: $main-font-style-semibold;
+    }
+}
+
+#about {
+    @include sub-title;
+    background-color: var(--about-bg-color);
+
+    .who-am-i {
+        background-color: var(--who-am-i-container);
+        border-radius: 20px;
+    }
+}
+
+#tech-stack {
+    @include sub-title;
+    /*    background-color: var(--skills-bg-color);
+*/
+    .line {
+        width: 0px;
+        height: 6px;
+        background-color: $color-purple;
+        clip-path: polygon(0% 0%, 20% 30%, 100% 0%, 100% 0%, 0% 100%);
+        margin: 0;
+        transform: scaleX(-1);
+    }
+
+    .flip {
+        transform: scaleX(1); /* Flip horizontally */
+    }
+
+
+    .animate-line {
+        animation: drawLine 2s forwards;
+    }
+
+    @keyframes drawLine {
+        from {
+            width: 0;
+        }
+
+        to {
+            width: 200px; /* Full width for the line */
+        }
+    }
+
+    .skill-title {
+        h2 {
+            color: var(--name-text-color);
+        }
+
+        p {
+            color: $color-purple;
+        }
+    }
+
+
+    h5 {
+        font-size: 20px;
+        font-family: SourceCodePro_SemiBold;
+    }
+
+
+    .card-layout {
+
+
+
+
+        h6 {
+            color: $color-purple;
+            font-family: SourceCodePro_SemiBold;
+            font-size: 16px;
+        }
+
+        p {
+            font-size: 12px;
+        }
+
+
+        .bg-img {
+            height: 110px;
+            width: 110px;
+            border: solid 3px var(--skills-border-color-card);
+            border-radius: 50%;
+            background: var(--skills-card-color);
+            display: flex;
+            justify-self: center;
+            align-self: center;
+
+            img {
+                height: 65%;
+                width: auto;
+                object-fit: contain;
+            }
+        }
+
+        .other-tech {
+
+            .bg-img {
+                height: 85px;
+                width: 85px;
+                border: solid 2px $cyan;
+                border-radius: 25%;
+                background: var(--skills-card-color);
+                display: flex;
+                justify-self: center;
+                align-self: center;
+
+                img {
+                    height: 65%;
+                    width: auto;
+                    object-fit: contain;
+                }
+            }
+        }
+
+       
+    }
+}
+
+#project {
+    background-color: var(--project-bg-color);
+
+    h1 {
+        font-size: 30px;
+        color: var(--project-title);
+        font-family: $font-weight-semibold;
+    }
+
+    h2 {
+        font-size: 20px;
+        color: var(--project-title);
+        font-family: $font-weight-semibold;
+    }
+
+    .postcard {
+        .card {
+            border-radius: 15px;
+        }
+
+        .postcard-bar {
+            width: 50px;
+            height: 5px;
+            margin: 10px 0;
+            border-radius: 5px;
+            transition: width 0.2s ease;
+            background: var(--line-color);
+        }
+
+        .postcard-img {
+            border-radius: 15px 15px 0px 0px;
+        }
+
+        &:hover .postcard-bar {
+            width: 100px;
+        }
+
+        &:hover .postcard-img {
+            transform: scale(1.05);
+            border-radius: 15px;
+        }
+    }
+}
+
+#contact {
+    background-image: linear-gradient($color-purple, $color-cyan);
+    color: $color-main-dark-3;
+
+    .title {
+        font-family: SourceCodePro_SemiBold;
+        font-size: 30px;
+    }
+
+    .newLine {
+        width: 100%;
+        height: 15px;
+    }
+
+    .sub-title {
+        font-size: 20px;
+    }
+
+    .my-border {
+        border-radius: 10px;
+        background-color: var(--input-feild-bg-color);
+    }
+
+    .my-contact-btn {
+        background-color: var(--bg-color-btn-contact);
+        color: var(--color-btn-contact);
+
+        &:hover {
+            color: $color-cyan;
+            background-color: $color-purple;
+            transform: scale(1.05);
+            font-family: SourceCodePro_SemiBold;
+        }
+    }
+
+    textarea {
+        resize: none;
+        overflow-y: auto;
+    }
+
+    .form-control {
+        background-color: var(--form-bg-color);
+    }
+
+    .message-box {
+        display: inline;
+        height: 10%;
+    }
+    .load {
+        display: none;
+        color: $color-purple;
+        align-items: end;
+    }
+}
+
+footer {
+    background: var(--footer-bg);
+
+    .title {
+        color: $color-purple;
+        font-family: SourceCodePro_SemiBold;
+        font-size: 15px;
+    }
+
+    li.no-bullet {
+        font-size: 13px;
+        font-family: 'Source Code Pro';
+        list-style-type: none;
+    }
+
+    .cc {
+        font-size: 10px;
+        color: var(--cc-text-color);
+    }
+
+    a {
+        text-decoration: none;
+        color: var(--bs-text-color);
+
+        &:hover {
+            color: var(--cc-text-color);
+        }
+    }
+}
+
+@media (max-width: 700px) and (min-height: 500px) {
+        .intro {
+            background-size: auto 40vh;
+            background-position: center bottom;
+        }
+    }
+
+@media (min-height: 100px) and (max-width: 960px ) {
+        .prog {
+            display: flex;
+            justify-content: space-around;
+        }
+    }
+
+   

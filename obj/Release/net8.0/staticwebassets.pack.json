@@ -1,0 +1,493 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Kristine Verna\\Desktop\\TYN\\KristineVernaMorenoV1.2\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\Kristine Verna\\Desktop\\TYN\\KristineVernaMorenoV1.2\\wwwroot\\docs\\KristineVernaMoreno_CV_JSE.pdf",
+      "PackagePath": "staticwebassets\\docs\\KristineVernaMoreno_CV_JSE.pdf"
+    },
+    {
+      "Id": "C:\\Users\\Kristine Verna\\Desktop\\TYN\\KristineVernaMorenoV1.2\\wwwroot\\font\\Source_Code_Pro\\OFL.txt",
+      "PackagePath": "staticwebassets\\font\\Source_Code_Pro\\OFL.txt"
+    },
+    {
+      "Id": "C:\\Users\\Kristine Verna\\Desktop\\TYN\\KristineVernaMorenoV1.2\\wwwroot\\font\\Source_Code_Pro\\README.txt",
+      "PackagePath": "staticwebassets\\font\\Source_Code_Pro\\README.txt"
+    },
+    {
+      "Id": "C:\\Users\\Kristine Verna\\Desktop\\TYN\\KristineVernaMorenoV1.2\\wwwroot\\font\\Source_Code_Pro\\SourceCodePro-Italic-VariableFont_wght.ttf",
+      "PackagePath": "staticwebassets\\font\\Source_Code_Pro\\SourceCodePro-Italic-VariableFont_wght.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Kristine Verna\\Desktop\\TYN\\KristineVernaMorenoV1.2\\wwwroot\\font\\Source_Code_Pro\\SourceCodePro-VariableFont_wght.ttf",
+      "PackagePath": "staticwebassets\\font\\Source_Code_Pro\\SourceCodePro-VariableFont_wght.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Kristine Verna\\Desktop\\TYN\\KristineVernaMorenoV1.2\\wwwroot\\font\\Source_Code_Pro\\static\\SourceCodePro-Black.ttf",
+      "PackagePath": "staticwebassets\\font\\Source_Code_Pro\\static\\SourceCodePro-Black.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Kristine Verna\\Desktop\\TYN\\KristineVernaMorenoV1.2\\wwwroot\\font\\Source_Code_Pro\\static\\SourceCodePro-BlackItalic.ttf",
+      "PackagePath": "staticwebassets\\font\\Source_Code_Pro\\static\\SourceCodePro-BlackItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Kristine Verna\\Desktop\\TYN\\KristineVernaMorenoV1.2\\wwwroot\\font\\Source_Code_Pro\\static\\SourceCodePro-Bold.ttf",
+      "PackagePath": "staticwebassets\\font\\Source_Code_Pro\\static\\SourceCodePro-Bold.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Kristine Verna\\Desktop\\TYN\\KristineVernaMorenoV1.2\\wwwroot\\font\\Source_Code_Pro\\static\\SourceCodePro-BoldItalic.ttf",
+      "PackagePath": "staticwebassets\\font\\Source_Code_Pro\\static\\SourceCodePro-BoldItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Kristine Verna\\Desktop\\TYN\\KristineVernaMorenoV1.2\\wwwroot\\font\\Source_Code_Pro\\static\\SourceCodePro-ExtraBold.ttf",
+      "PackagePath": "staticwebassets\\font\\Source_Code_Pro\\static\\SourceCodePro-ExtraBold.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Kristine Verna\\Desktop\\TYN\\KristineVernaMorenoV1.2\\wwwroot\\font\\Source_Code_Pro\\static\\SourceCodePro-ExtraBoldItalic.ttf",
+      "PackagePath": "staticwebassets\\font\\Source_Code_Pro\\static\\SourceCodePro-ExtraBoldItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Kristine Verna\\Desktop\\TYN\\KristineVernaMorenoV1.2\\wwwroot\\font\\Source_Code_Pro\\static\\SourceCodePro-ExtraLight.ttf",
+      "PackagePath": "staticwebassets\\font\\Source_Code_Pro\\static\\SourceCodePro-ExtraLight.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Kristine Verna\\Desktop\\TYN\\KristineVernaMorenoV1.2\\wwwroot\\font\\Source_Code_Pro\\static\\SourceCodePro-ExtraLightItalic.ttf",
+      "PackagePath": "staticwebassets\\font\\Source_Code_Pro\\static\\SourceCodePro-ExtraLightItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Kristine Verna\\Desktop\\TYN\\KristineVernaMorenoV1.2\\wwwroot\\font\\Source_Code_Pro\\static\\SourceCodePro-Italic.ttf",
+      "PackagePath": "staticwebassets\\font\\Source_Code_Pro\\static\\SourceCodePro-Italic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Kristine Verna\\Desktop\\TYN\\KristineVernaMorenoV1.2\\wwwroot\\font\\Source_Code_Pro\\static\\SourceCodePro-Light.ttf",
+      "PackagePath": "staticwebassets\\font\\Source_Code_Pro\\static\\SourceCodePro-Light.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Kristine Verna\\Desktop\\TYN\\KristineVernaMorenoV1.2\\wwwroot\\font\\Source_Code_Pro\\static\\SourceCodePro-LightItalic.ttf",
+      "PackagePath": "staticwebassets\\font\\Source_Code_Pro\\static\\SourceCodePro-LightItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Kristine Verna\\Desktop\\TYN\\KristineVernaMorenoV1.2\\wwwroot\\font\\Source_Code_Pro\\static\\SourceCodePro-Medium.ttf",
+      "PackagePath": "staticwebassets\\font\\Source_Code_Pro\\static\\SourceCodePro-Medium.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Kristine Verna\\Desktop\\TYN\\KristineVernaMorenoV1.2\\wwwroot\\font\\Source_Code_Pro\\static\\SourceCodePro-MediumItalic.ttf",
+      "PackagePath": "staticwebassets\\font\\Source_Code_Pro\\static\\SourceCodePro-MediumItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Kristine Verna\\Desktop\\TYN\\KristineVernaMorenoV1.2\\wwwroot\\font\\Source_Code_Pro\\static\\SourceCodePro-Regular.ttf",
+      "PackagePath": "staticwebassets\\font\\Source_Code_Pro\\static\\SourceCodePro-Regular.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Kristine Verna\\Desktop\\TYN\\KristineVernaMorenoV1.2\\wwwroot\\font\\Source_Code_Pro\\static\\SourceCodePro-SemiBold.ttf",
+      "PackagePath": "staticwebassets\\font\\Source_Code_Pro\\static\\SourceCodePro-SemiBold.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Kristine Verna\\Desktop\\TYN\\KristineVernaMorenoV1.2\\wwwroot\\font\\Source_Code_Pro\\static\\SourceCodePro-SemiBoldItalic.ttf",
+      "PackagePath": "staticwebassets\\font\\Source_Code_Pro\\static\\SourceCodePro-SemiBoldItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Kristine Verna\\Desktop\\TYN\\KristineVernaMorenoV1.2\\wwwroot\\images\\icon.png",
+      "PackagePath": "staticwebassets\\images\\icon.png"
+    },
+    {
+      "Id": "C:\\Users\\Kristine Verna\\Desktop\\TYN\\KristineVernaMorenoV1.2\\wwwroot\\images\\iweb.png",
+      "PackagePath": "staticwebassets\\images\\iweb.png"
+    },
+    {
+      "Id": "C:\\Users\\Kristine Verna\\Desktop\\TYN\\KristineVernaMorenoV1.2\\wwwroot\\images\\logo.png",
+      "PackagePath": "staticwebassets\\images\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\Kristine Verna\\Desktop\\TYN\\KristineVernaMorenoV1.2\\wwwroot\\images\\me.png",
+      "PackagePath": "staticwebassets\\images\\me.png"
+    },
+    {
+      "Id": "C:\\Users\\Kristine Verna\\Desktop\\TYN\\KristineVernaMorenoV1.2\\wwwroot\\images\\me1.png",
+      "PackagePath": "staticwebassets\\images\\me1.png"
+    },
+    {
+      "Id": "C:\\Users\\Kristine Verna\\Desktop\\TYN\\KristineVernaMorenoV1.2\\wwwroot\\images\\me1f.png",
+      "PackagePath": "staticwebassets\\images\\me1f.png"
+    },
+    {
+      "Id": "C:\\Users\\Kristine Verna\\Desktop\\TYN\\KristineVernaMorenoV1.2\\wwwroot\\images\\me2.png",
+      "PackagePath": "staticwebassets\\images\\me2.png"
+    },
+    {
+      "Id": "C:\\Users\\Kristine Verna\\Desktop\\TYN\\KristineVernaMorenoV1.2\\wwwroot\\images\\me3.png",
+      "PackagePath": "staticwebassets\\images\\me3.png"
+    },
+    {
+      "Id": "C:\\Users\\Kristine Verna\\Desktop\\TYN\\KristineVernaMorenoV1.2\\wwwroot\\images\\programminglanguage\\C_sharp.png",
+      "PackagePath": "staticwebassets\\images\\programminglanguage\\C_sharp.png"
+    },
+    {
+      "Id": "C:\\Users\\Kristine Verna\\Desktop\\TYN\\KristineVernaMorenoV1.2\\wwwroot\\images\\programminglanguage\\JavaScript.png",
+      "PackagePath": "staticwebassets\\images\\programminglanguage\\JavaScript.png"
+    },
+    {
+      "Id": "C:\\Users\\Kristine Verna\\Desktop\\TYN\\KristineVernaMorenoV1.2\\wwwroot\\images\\programminglanguage\\PHP.png",
+      "PackagePath": "staticwebassets\\images\\programminglanguage\\PHP.png"
+    },
+    {
+      "Id": "C:\\Users\\Kristine Verna\\Desktop\\TYN\\KristineVernaMorenoV1.2\\wwwroot\\images\\programminglanguage\\Python.png",
+      "PackagePath": "staticwebassets\\images\\programminglanguage\\Python.png"
+    },
+    {
+      "Id": "C:\\Users\\Kristine Verna\\Desktop\\TYN\\KristineVernaMorenoV1.2\\wwwroot\\images\\programminglanguage\\SQL.png",
+      "PackagePath": "staticwebassets\\images\\programminglanguage\\SQL.png"
+    },
+    {
+      "Id": "C:\\Users\\Kristine Verna\\Desktop\\TYN\\KristineVernaMorenoV1.2\\wwwroot\\images\\project\\samplewebsite.png",
+      "PackagePath": "staticwebassets\\images\\project\\samplewebsite.png"
+    },
+    {
+      "Id": "C:\\Users\\Kristine Verna\\Desktop\\TYN\\KristineVernaMorenoV1.2\\wwwroot\\images\\techstack\\CSS.png",
+      "PackagePath": "staticwebassets\\images\\techstack\\CSS.png"
+    },
+    {
+      "Id": "C:\\Users\\Kristine Verna\\Desktop\\TYN\\KristineVernaMorenoV1.2\\wwwroot\\images\\techstack\\Figma-logo.png",
+      "PackagePath": "staticwebassets\\images\\techstack\\Figma-logo.png"
+    },
+    {
+      "Id": "C:\\Users\\Kristine Verna\\Desktop\\TYN\\KristineVernaMorenoV1.2\\wwwroot\\images\\techstack\\HTML5_Badge.png",
+      "PackagePath": "staticwebassets\\images\\techstack\\HTML5_Badge.png"
+    },
+    {
+      "Id": "C:\\Users\\Kristine Verna\\Desktop\\TYN\\KristineVernaMorenoV1.2\\wwwroot\\images\\techstack\\MySQL.png",
+      "PackagePath": "staticwebassets\\images\\techstack\\MySQL.png"
+    },
+    {
+      "Id": "C:\\Users\\Kristine Verna\\Desktop\\TYN\\KristineVernaMorenoV1.2\\wwwroot\\images\\techstack\\PostgreSQL.png",
+      "PackagePath": "staticwebassets\\images\\techstack\\PostgreSQL.png"
+    },
+    {
+      "Id": "C:\\Users\\Kristine Verna\\Desktop\\TYN\\KristineVernaMorenoV1.2\\wwwroot\\images\\techstack\\Unity-dark.png",
+      "PackagePath": "staticwebassets\\images\\techstack\\Unity-dark.png"
+    },
+    {
+      "Id": "C:\\Users\\Kristine Verna\\Desktop\\TYN\\KristineVernaMorenoV1.2\\wwwroot\\images\\techstack\\Unity-white.png",
+      "PackagePath": "staticwebassets\\images\\techstack\\Unity-white.png"
+    },
+    {
+      "Id": "C:\\Users\\Kristine Verna\\Desktop\\TYN\\KristineVernaMorenoV1.2\\wwwroot\\images\\techstack\\VisualStudio.png",
+      "PackagePath": "staticwebassets\\images\\techstack\\VisualStudio.png"
+    },
+    {
+      "Id": "C:\\Users\\Kristine Verna\\Desktop\\TYN\\KristineVernaMorenoV1.2\\wwwroot\\images\\techstack\\VisualStudioCode.png",
+      "PackagePath": "staticwebassets\\images\\techstack\\VisualStudioCode.png"
+    },
+    {
+      "Id": "C:\\Users\\Kristine Verna\\Desktop\\TYN\\KristineVernaMorenoV1.2\\wwwroot\\images\\techstack\\angular.png",
+      "PackagePath": "staticwebassets\\images\\techstack\\angular.png"
+    },
+    {
+      "Id": "C:\\Users\\Kristine Verna\\Desktop\\TYN\\KristineVernaMorenoV1.2\\wwwroot\\images\\techstack\\bootstrap.png",
+      "PackagePath": "staticwebassets\\images\\techstack\\bootstrap.png"
+    },
+    {
+      "Id": "C:\\Users\\Kristine Verna\\Desktop\\TYN\\KristineVernaMorenoV1.2\\wwwroot\\images\\techstack\\canva.png",
+      "PackagePath": "staticwebassets\\images\\techstack\\canva.png"
+    },
+    {
+      "Id": "C:\\Users\\Kristine Verna\\Desktop\\TYN\\KristineVernaMorenoV1.2\\wwwroot\\images\\techstack\\entityframework.png",
+      "PackagePath": "staticwebassets\\images\\techstack\\entityframework.png"
+    },
+    {
+      "Id": "C:\\Users\\Kristine Verna\\Desktop\\TYN\\KristineVernaMorenoV1.2\\wwwroot\\images\\techstack\\github.png",
+      "PackagePath": "staticwebassets\\images\\techstack\\github.png"
+    },
+    {
+      "Id": "C:\\Users\\Kristine Verna\\Desktop\\TYN\\KristineVernaMorenoV1.2\\wwwroot\\images\\techstack\\github1.png",
+      "PackagePath": "staticwebassets\\images\\techstack\\github1.png"
+    },
+    {
+      "Id": "C:\\Users\\Kristine Verna\\Desktop\\TYN\\KristineVernaMorenoV1.2\\wwwroot\\images\\techstack\\images.png",
+      "PackagePath": "staticwebassets\\images\\techstack\\images.png"
+    },
+    {
+      "Id": "C:\\Users\\Kristine Verna\\Desktop\\TYN\\KristineVernaMorenoV1.2\\wwwroot\\images\\techstack\\krita.png",
+      "PackagePath": "staticwebassets\\images\\techstack\\krita.png"
+    },
+    {
+      "Id": "C:\\Users\\Kristine Verna\\Desktop\\TYN\\KristineVernaMorenoV1.2\\wwwroot\\images\\techstack\\mvc.png",
+      "PackagePath": "staticwebassets\\images\\techstack\\mvc.png"
+    },
+    {
+      "Id": "C:\\Users\\Kristine Verna\\Desktop\\TYN\\KristineVernaMorenoV1.2\\wwwroot\\images\\techstack\\net.png",
+      "PackagePath": "staticwebassets\\images\\techstack\\net.png"
+    },
+    {
+      "Id": "C:\\Users\\Kristine Verna\\Desktop\\TYN\\KristineVernaMorenoV1.2\\wwwroot\\images\\techstack\\photoshop.png",
+      "PackagePath": "staticwebassets\\images\\techstack\\photoshop.png"
+    },
+    {
+      "Id": "C:\\Users\\Kristine Verna\\Desktop\\TYN\\KristineVernaMorenoV1.2\\wwwroot\\images\\techstack\\sass.png",
+      "PackagePath": "staticwebassets\\images\\techstack\\sass.png"
+    },
+    {
+      "Id": "C:\\Users\\Kristine Verna\\Desktop\\TYN\\KristineVernaMorenoV1.2\\wwwroot\\images\\techstack\\ssms.png",
+      "PackagePath": "staticwebassets\\images\\techstack\\ssms.png"
+    },
+    {
+      "Id": "C:\\Users\\Kristine Verna\\Desktop\\TYN\\KristineVernaMorenoV1.2\\wwwroot\\images\\techstack\\unity.png",
+      "PackagePath": "staticwebassets\\images\\techstack\\unity.png"
+    },
+    {
+      "Id": "C:\\Users\\Kristine Verna\\Desktop\\TYN\\KristineVernaMorenoV1.2\\wwwroot\\images\\techstack\\unity1.png",
+      "PackagePath": "staticwebassets\\images\\techstack\\unity1.png"
+    },
+    {
+      "Id": "C:\\Users\\Kristine Verna\\Desktop\\TYN\\KristineVernaMorenoV1.2\\wwwroot\\images\\tyn.png",
+      "PackagePath": "staticwebassets\\images\\tyn.png"
+    },
+    {
+      "Id": "C:\\Users\\Kristine Verna\\Desktop\\TYN\\KristineVernaMorenoV1.2\\wwwroot\\images\\tyn1.png",
+      "PackagePath": "staticwebassets\\images\\tyn1.png"
+    },
+    {
+      "Id": "C:\\Users\\Kristine Verna\\Desktop\\TYN\\KristineVernaMorenoV1.2\\wwwroot\\js\\script.js",
+      "PackagePath": "staticwebassets\\js\\script.js"
+    },
+    {
+      "Id": "C:\\Users\\Kristine Verna\\Desktop\\TYN\\KristineVernaMorenoV1.2\\wwwroot\\lib\\bootstrap\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\Kristine Verna\\Desktop\\TYN\\KristineVernaMorenoV1.2\\wwwroot\\lib\\bootstrap\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Kristine Verna\\Desktop\\TYN\\KristineVernaMorenoV1.2\\wwwroot\\lib\\bootstrap\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Kristine Verna\\Desktop\\TYN\\KristineVernaMorenoV1.2\\wwwroot\\lib\\bootstrap\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Kristine Verna\\Desktop\\TYN\\KristineVernaMorenoV1.2\\wwwroot\\lib\\bootstrap\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Kristine Verna\\Desktop\\TYN\\KristineVernaMorenoV1.2\\wwwroot\\lib\\bootstrap\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Kristine Verna\\Desktop\\TYN\\KristineVernaMorenoV1.2\\wwwroot\\lib\\bootstrap\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Kristine Verna\\Desktop\\TYN\\KristineVernaMorenoV1.2\\wwwroot\\lib\\bootstrap\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Kristine Verna\\Desktop\\TYN\\KristineVernaMorenoV1.2\\wwwroot\\lib\\bootstrap\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\Kristine Verna\\Desktop\\TYN\\KristineVernaMorenoV1.2\\wwwroot\\lib\\bootstrap\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Kristine Verna\\Desktop\\TYN\\KristineVernaMorenoV1.2\\wwwroot\\lib\\bootstrap\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Kristine Verna\\Desktop\\TYN\\KristineVernaMorenoV1.2\\wwwroot\\lib\\bootstrap\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Kristine Verna\\Desktop\\TYN\\KristineVernaMorenoV1.2\\wwwroot\\lib\\bootstrap\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Kristine Verna\\Desktop\\TYN\\KristineVernaMorenoV1.2\\wwwroot\\lib\\bootstrap\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Kristine Verna\\Desktop\\TYN\\KristineVernaMorenoV1.2\\wwwroot\\lib\\bootstrap\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Kristine Verna\\Desktop\\TYN\\KristineVernaMorenoV1.2\\wwwroot\\lib\\bootstrap\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Kristine Verna\\Desktop\\TYN\\KristineVernaMorenoV1.2\\wwwroot\\lib\\bootstrap\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\Kristine Verna\\Desktop\\TYN\\KristineVernaMorenoV1.2\\wwwroot\\lib\\bootstrap\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Kristine Verna\\Desktop\\TYN\\KristineVernaMorenoV1.2\\wwwroot\\lib\\bootstrap\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Kristine Verna\\Desktop\\TYN\\KristineVernaMorenoV1.2\\wwwroot\\lib\\bootstrap\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Kristine Verna\\Desktop\\TYN\\KristineVernaMorenoV1.2\\wwwroot\\lib\\bootstrap\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Kristine Verna\\Desktop\\TYN\\KristineVernaMorenoV1.2\\wwwroot\\lib\\bootstrap\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Kristine Verna\\Desktop\\TYN\\KristineVernaMorenoV1.2\\wwwroot\\lib\\bootstrap\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Kristine Verna\\Desktop\\TYN\\KristineVernaMorenoV1.2\\wwwroot\\lib\\bootstrap\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Kristine Verna\\Desktop\\TYN\\KristineVernaMorenoV1.2\\wwwroot\\lib\\bootstrap\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\Kristine Verna\\Desktop\\TYN\\KristineVernaMorenoV1.2\\wwwroot\\lib\\bootstrap\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Kristine Verna\\Desktop\\TYN\\KristineVernaMorenoV1.2\\wwwroot\\lib\\bootstrap\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Kristine Verna\\Desktop\\TYN\\KristineVernaMorenoV1.2\\wwwroot\\lib\\bootstrap\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Kristine Verna\\Desktop\\TYN\\KristineVernaMorenoV1.2\\wwwroot\\lib\\bootstrap\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Kristine Verna\\Desktop\\TYN\\KristineVernaMorenoV1.2\\wwwroot\\lib\\bootstrap\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Kristine Verna\\Desktop\\TYN\\KristineVernaMorenoV1.2\\wwwroot\\lib\\bootstrap\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Kristine Verna\\Desktop\\TYN\\KristineVernaMorenoV1.2\\wwwroot\\lib\\bootstrap\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Kristine Verna\\Desktop\\TYN\\KristineVernaMorenoV1.2\\wwwroot\\lib\\bootstrap\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\Kristine Verna\\Desktop\\TYN\\KristineVernaMorenoV1.2\\wwwroot\\lib\\bootstrap\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Kristine Verna\\Desktop\\TYN\\KristineVernaMorenoV1.2\\wwwroot\\lib\\bootstrap\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Kristine Verna\\Desktop\\TYN\\KristineVernaMorenoV1.2\\wwwroot\\lib\\bootstrap\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Kristine Verna\\Desktop\\TYN\\KristineVernaMorenoV1.2\\wwwroot\\lib\\bootstrap\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\Kristine Verna\\Desktop\\TYN\\KristineVernaMorenoV1.2\\wwwroot\\lib\\bootstrap\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Kristine Verna\\Desktop\\TYN\\KristineVernaMorenoV1.2\\wwwroot\\lib\\bootstrap\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Kristine Verna\\Desktop\\TYN\\KristineVernaMorenoV1.2\\wwwroot\\lib\\bootstrap\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Kristine Verna\\Desktop\\TYN\\KristineVernaMorenoV1.2\\wwwroot\\lib\\bootstrap\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\Kristine Verna\\Desktop\\TYN\\KristineVernaMorenoV1.2\\wwwroot\\lib\\bootstrap\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Kristine Verna\\Desktop\\TYN\\KristineVernaMorenoV1.2\\wwwroot\\lib\\bootstrap\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Kristine Verna\\Desktop\\TYN\\KristineVernaMorenoV1.2\\wwwroot\\lib\\bootstrap\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Kristine Verna\\Desktop\\TYN\\KristineVernaMorenoV1.2\\wwwroot\\project\\1\\3.jpeg",
+      "PackagePath": "staticwebassets\\project\\1\\3.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Kristine Verna\\Desktop\\TYN\\KristineVernaMorenoV1.2\\wwwroot\\project\\1\\4.png",
+      "PackagePath": "staticwebassets\\project\\1\\4.png"
+    },
+    {
+      "Id": "C:\\Users\\Kristine Verna\\Desktop\\TYN\\KristineVernaMorenoV1.2\\wwwroot\\project\\1\\images (1).jpg",
+      "PackagePath": "staticwebassets\\project\\1\\images (1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\Kristine Verna\\Desktop\\TYN\\KristineVernaMorenoV1.2\\wwwroot\\project\\1\\images (2)",
+      "PackagePath": "staticwebassets\\project\\1"
+    },
+    {
+      "Id": "C:\\Users\\Kristine Verna\\Desktop\\TYN\\KristineVernaMorenoV1.2\\wwwroot\\project\\1\\images.jpg",
+      "PackagePath": "staticwebassets\\project\\1\\images.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Kristine Verna\\Desktop\\TYN\\KristineVernaMorenoV1.2\\wwwroot\\sass\\main.css",
+      "PackagePath": "staticwebassets\\sass\\main.css"
+    },
+    {
+      "Id": "C:\\Users\\Kristine Verna\\Desktop\\TYN\\KristineVernaMorenoV1.2\\wwwroot\\sass\\main.min.css",
+      "PackagePath": "staticwebassets\\sass\\main.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Kristine Verna\\Desktop\\TYN\\KristineVernaMorenoV1.2\\wwwroot\\sass\\main.scss",
+      "PackagePath": "staticwebassets\\sass\\main.scss"
+    },
+    {
+      "Id": "C:\\Users\\Kristine Verna\\Desktop\\TYN\\KristineVernaMorenoV1.2\\wwwroot\\sass\\mixin.scss",
+      "PackagePath": "staticwebassets\\sass\\mixin.scss"
+    },
+    {
+      "Id": "C:\\Users\\Kristine Verna\\Desktop\\TYN\\KristineVernaMorenoV1.2\\wwwroot\\sass\\reset.scss",
+      "PackagePath": "staticwebassets\\sass\\reset.scss"
+    },
+    {
+      "Id": "C:\\Users\\Kristine Verna\\Desktop\\TYN\\KristineVernaMorenoV1.2\\wwwroot\\sass\\variable.scss",
+      "PackagePath": "staticwebassets\\sass\\variable.scss"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.KristineVernaMorenoV1.2.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.build.KristineVernaMorenoV1.2.props",
+      "PackagePath": "build\\KristineVernaMorenoV1.2.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.KristineVernaMorenoV1.2.props",
+      "PackagePath": "buildMultiTargeting\\KristineVernaMorenoV1.2.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.buildTransitive.KristineVernaMorenoV1.2.props",
+      "PackagePath": "buildTransitive\\KristineVernaMorenoV1.2.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

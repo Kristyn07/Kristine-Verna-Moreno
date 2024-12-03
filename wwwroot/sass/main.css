@@ -12341,9 +12341,9 @@ header .my-nav-btn {
   height: 10%;
 }
 #contact .load {
-  display: inline;
+  display: none;
   color: #c762f6;
-  align-items: end;
+  align-items: center;
 }
 
 footer {

@@ -1,0 +1,27 @@
+﻿/*#region IMPORT FONT STYLE*/
+@font-face {
+    font-family: 'SourceCodePro_Regular';
+    src: url('/font/Source_Code_Pro/static/SourceCodePro-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'SourceCodePro_Black';
+    src: url('/font/Source_Code_Pro/static/SourceCodePro-Black.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'SourceCodePro_SemiBold';
+    src: url('/font/Source_Code_Pro/static/SourceCodePro-SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'SourceCodePro_ExtraBold';
+    src: url('/font/Source_Code_Pro/static/SourceCodePro-ExtraBold.ttf') format('truetype');
+}
+/*#endregion*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}

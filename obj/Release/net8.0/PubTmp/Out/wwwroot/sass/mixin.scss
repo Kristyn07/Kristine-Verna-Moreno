@@ -1,0 +1,40 @@
+﻿@import 'variable.scss';
+
+
+@mixin sub-title {
+    .titleSection h6 {
+        color: $color-cyan-shade-5;
+        font-family: var(--default-font-style-semibold);
+        font-size: 25px;
+        //text-shadow: $text-shadow-light;
+    }
+
+    .titleSection p {
+        color: $color-purple;
+        font-family: var(--default-font-style-semibold);
+        font-size: 15px;
+    }
+
+    .line {
+        width: 0px;
+        height: 6px;
+        background-color: $color-purple;
+        clip-path: polygon(0% 0%, 20% 30%, 100% 0%, 100% 0%, 0% 100%);
+    }
+
+
+
+    .animate-line {
+        animation: drawLine 2s forwards;
+    }
+
+    @keyframes drawLine {
+        from {
+            width: 0;
+        }
+
+        to {
+            width: 280px; /* End with full width */
+        }
+    }
+}

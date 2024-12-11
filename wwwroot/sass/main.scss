@@ -213,35 +213,24 @@ header {
 
 #project {
     background-color: var(--project-bg-color);
-
-    h1 {
-        font-size: 30px;
-        color: var(--project-title);
-        font-family: $font-weight-semibold;
-    }
-
-    h2 {
-        font-size: 20px;
-        color: var(--project-title);
-        font-family: $font-weight-semibold;
-    }
+    /*
+    
 
     .postcard {
         .card {
             border-radius: 15px;
         }
 
-        .postcard-bar {
-            width: 50px;
-            height: 5px;
-            margin: 10px 0;
-            border-radius: 5px;
-            transition: width 0.2s ease;
-            background: var(--line-color);
-        }
+
 
         .postcard-img {
             border-radius: 15px 15px 0px 0px;
+        }
+
+        .img-container {
+            height: 360px;
+            width: 100%;
+            background: pink;
         }
 
         &:hover .postcard-bar {
@@ -252,6 +241,22 @@ header {
             transform: scale(1.05);
             border-radius: 15px;
         }
+    }*/
+    //new
+    
+    h5 {
+        color: $color-cyan;
+    }
+
+    p {
+        font-size: 15px;
+    }
+
+    .carousel-item {
+        height: 280px;
+        object-fit: contain;
+        justify-content:center;
+        align-content:center;
     }
 }
 
@@ -357,4 +362,3 @@ footer {
         }
     }
 
-   

@@ -5,8 +5,8 @@
       "PackagePath": "staticwebassets\\css\\style.css"
     },
     {
-      "Id": "C:\\Users\\Kristine Verna\\Desktop\\TYN\\KristineVernaMorenoV1.2\\wwwroot\\docs\\KristineVernaMoreno_CV_JSE.pdf",
-      "PackagePath": "staticwebassets\\docs\\KristineVernaMoreno_CV_JSE.pdf"
+      "Id": "C:\\Users\\Kristine Verna\\Desktop\\TYN\\KristineVernaMorenoV1.2\\wwwroot\\docs\\KristineVernaMoreno_CV_JrSoftwareEng.pdf",
+      "PackagePath": "staticwebassets\\docs\\KristineVernaMoreno_CV_JrSoftwareEng.pdf"
     },
     {
       "Id": "C:\\Users\\Kristine Verna\\Desktop\\TYN\\KristineVernaMorenoV1.2\\wwwroot\\font\\Source_Code_Pro\\OFL.txt",
@@ -447,6 +447,46 @@
     {
       "Id": "C:\\Users\\Kristine Verna\\Desktop\\TYN\\KristineVernaMorenoV1.2\\wwwroot\\project\\1\\images.jpg",
       "PackagePath": "staticwebassets\\project\\1\\images.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Kristine Verna\\Desktop\\TYN\\KristineVernaMorenoV1.2\\wwwroot\\project\\RescueBLUE\\Images\\Character.jpg",
+      "PackagePath": "staticwebassets\\project\\RescueBLUE\\Images\\Character.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Kristine Verna\\Desktop\\TYN\\KristineVernaMorenoV1.2\\wwwroot\\project\\RescueBLUE\\Images\\MN1.jpg",
+      "PackagePath": "staticwebassets\\project\\RescueBLUE\\Images\\MN1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Kristine Verna\\Desktop\\TYN\\KristineVernaMorenoV1.2\\wwwroot\\project\\RescueBLUE\\Images\\MN2.jpg",
+      "PackagePath": "staticwebassets\\project\\RescueBLUE\\Images\\MN2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Kristine Verna\\Desktop\\TYN\\KristineVernaMorenoV1.2\\wwwroot\\project\\RescueBLUE\\Images\\MN3.jpg",
+      "PackagePath": "staticwebassets\\project\\RescueBLUE\\Images\\MN3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Kristine Verna\\Desktop\\TYN\\KristineVernaMorenoV1.2\\wwwroot\\project\\RescueBLUE\\Images\\MN4.jpg",
+      "PackagePath": "staticwebassets\\project\\RescueBLUE\\Images\\MN4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Kristine Verna\\Desktop\\TYN\\KristineVernaMorenoV1.2\\wwwroot\\project\\RescueBLUE\\Images\\MN5.jpg",
+      "PackagePath": "staticwebassets\\project\\RescueBLUE\\Images\\MN5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Kristine Verna\\Desktop\\TYN\\KristineVernaMorenoV1.2\\wwwroot\\project\\RescueBLUE\\Images\\MainMenu.jpg",
+      "PackagePath": "staticwebassets\\project\\RescueBLUE\\Images\\MainMenu.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Kristine Verna\\Desktop\\TYN\\KristineVernaMorenoV1.2\\wwwroot\\project\\RescueBLUE\\Images\\OverWorld.jpg",
+      "PackagePath": "staticwebassets\\project\\RescueBLUE\\Images\\OverWorld.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Kristine Verna\\Desktop\\TYN\\KristineVernaMorenoV1.2\\wwwroot\\project\\RescueBLUE\\Images\\OverWorld2.jpg",
+      "PackagePath": "staticwebassets\\project\\RescueBLUE\\Images\\OverWorld2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Kristine Verna\\Desktop\\TYN\\KristineVernaMorenoV1.2\\wwwroot\\project\\RescueBLUE\\Images\\Stage.jpg",
+      "PackagePath": "staticwebassets\\project\\RescueBLUE\\Images\\Stage.jpg"
     },
     {
       "Id": "C:\\Users\\Kristine Verna\\Desktop\\TYN\\KristineVernaMorenoV1.2\\wwwroot\\sass\\main.css",

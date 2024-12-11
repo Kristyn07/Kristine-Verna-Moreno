@@ -1,22 +1,22 @@
 ﻿@model KristineVernaMorenoV1._2.Models.HomeModel
 @* My Portfolio *@
 
-<!--Navigation / Header-->
+@*<!--Navigation / Header-->*@
 <header >
     <nav class="navbar navbar-expand-md navbar-light p-2">
         <div class="container-xxl">
-            <!--Logo-->
+            @*<!--Logo-->*@
             <div class=" logo col-2 m-0 p-0" >
             <a href="#intro" class="navbar-brand align-items-center">
                 <img src="/images/logo.png" title="logo">
             </a>
             </div>
-            <!-- toggle button for mobile nav -->
+            @*<!-- toggle button for mobile nav -->*@
             <button class="navbar-toggler my-nav-btn" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
-            <!--nav bar links-->
+            @* <!--nav bar links--> *@
             <div class=" p-0 collapse navbar-collapse align-items-center justify-content-between " id="main-nav">
                 <ul class="navbar-nav mx-auto ">
                     <li class="nav-item mx-3 mx-lg-4 align-self-center ">
@@ -37,11 +37,11 @@
                 </ul>
                 <div class="mode nav-item ">
                     <div class="d-flex justify-content-end">
-                        <!--Light-->
+                        @* <!--Light--> *@
                         <button id="toggle-light" type="button" class="btn go-to-dark-mode btn-mode-style" style="display:none" aria-label="Switch to dark mode">
                             <i class="bi bi-brightness-high-fill "></i>
                         </button>
-                        <!--Dark-->
+                        @* <!--Dark--> *@
                         <button id="toggle-dark" type="button" class="btn go-to-light-mode btn-mode-style" style="display:none" aria-label="Switch to light mode">
                             <i class="bi bi-moon-stars-fill"></i>                        
                         </button>
@@ -51,11 +51,11 @@
         </div>
     </nav>
 </header>
-<!--HOME|ABOUT|SKILL|PROJECT|CONTACT-->
+@* <!--HOME|ABOUT|SKILL|PROJECT|CONTACT--> *@
 <main> 
 
-    <!--HOME || Intro-->
-    <section id="home" class="my-home container-fluid">
+    @* <!--HOME || Intro--> *@
+    <section id="home" class="my-home container-fluid py-2">
         <div class="container-lg py-4">
             <div class="row justify-content-center">
                 <div class="col-md text-center text-md-start align-content-center">
@@ -82,7 +82,7 @@
                         <a href="https://mail.google.com/mail/?view=cm&fs=1&to=kristinevernamoreno1@gmail.com" target="_blank" class="btn btn-style btn-sm me-1" aria-label="mail">
                             <i class="bi bi-envelope-at-fill"></i>
                         </a>
-                        <a href="../../docs/KristineVernaMoreno_CV_JSE.pdf" class="btn btn-style btn-sm me-1" download="KristineVernaMoreno.pdf" aria-label="CV">
+                        <a href="../../docs/KristineVernaMoreno_CV_JrSoftwareEng.pdf" class="btn btn-style btn-sm me-1" download="KristineVernaMoreno_CV_JrSoftwareEngineer.pdf" aria-label="CV">
                             Download CV
                         </a>
                     </div>
@@ -97,8 +97,8 @@
         </div>
     </section>
 
-    <!--ABOUT-->
-    <section id="about" class="my-home container-fluid">
+    @* <!--ABOUT--> *@
+    <section id="about" class="my-home container-fluid py-2">
         <div class="container-lg py-5">
             <div class="row justify-content-center who-am-i ">
                 <div class="container-lg p-4 ">
@@ -118,9 +118,9 @@
         </div>
     </section>
     
-    <!--TECH STACK-->
-    <section id="tech-stack" class="my-skills container-fluid  py-4">   
-        <div class="container-lg py-2 px-0">
+    @* <!--TECH STACK--> *@
+    <section id="tech-stack" class="my-skills container-fluid  py-2">   
+        <div class="container-lg py-5 px-0">
             <div class="text-center skill-title">
                 <h2>TECH STACK</h2>
                 <div class="d-flex justify-content-center align-items-center ">
@@ -131,7 +131,7 @@
             </div>
             <div class=" align-items-center justify-content-between p-0"  >
                 <div class="p-0">
-                    <!--PROGRAMMING LANGUAGES-->
+                    @* <!--PROGRAMMING LANGUAGES--> *@
                     <div class="main-prog">
                         <div class="card-body text-center py-1 px-0">
                             <h5 class="card-title ">PROGRAMMING LANGUAGES</h5>
@@ -161,7 +161,7 @@
                             </div>
                         </div>
                     </div>
-                    <!--Technologies & Tools-->
+                    @* <!--Technologies & Tools--> *@
                     <div class="technology-tools">
                         <div class="card-body text-center py-1 px-0">
                             <h5 class="card-title ">
@@ -261,11 +261,11 @@
         </div>
     </section>
     
-    <!--PROJECTS-->
-    <section id="project" class="my-home container-fluid py-4">
-        <div class="container-lg px-0">
-            <div class="container-lg py-4 px-0">
-                <h1 class="pb-2 text-center">RECENT PROJECTS</h1>
+    @* <!--PROJECTS--> 
+    <section id="project" class="my-home container-fluid py-2">
+        <div class="container-lg px-0 py-5">
+            <div class="container-lg px-0 justify-content-between">
+                <h1 class="pb-2 text-center">PROJECTS</h1>
                 <div class="row row-cols-1 row-cols-md-3 g-4 justify-content-between">
                     <div class="col postcard">
                         <div class="card h-100">
@@ -306,14 +306,94 @@
                             </div>
                         </div>
                     </div>
+                   
                 </div>
             </div>
         </div>
     </section>
+    *@
 
-    <!--CONTACT-->
-    <section id="contact" class="my-contact container-fluid px-0 mb-3">
-        <div class="container-lg px-0" >
+
+    @* NEW DESIGN *@
+    <section id="project" class="my-home container-fluid py-2">
+        <div class="container-lg px-0 py-5">
+            <div class="container-lg px-0 justify-content-between">
+                <h1 class="pb-2 text-center">PROJECTS</h1>
+                <!-- Card Section -->
+                <div class="row row-cols-1 row-cols-md-2 g-4 py-2">
+                    <div class="col">
+                        <!-- Informaion -->
+                        <div class=" h-100">
+                            
+                                <div class="card-body">
+                                    <h5>Rescue.BLUE</h5>
+                                    <div class="postcard-bar"></div>
+                                    <p>
+                                        Rescue.BLUE is a 2D single-player mobile game for Android, designed to teach disaster preparedness and response. It targets college students enrolled in the National Service Training Program (NSTP) – Civic Welfare Training Service (CWTS) course.
+                                        <br />The game combines adventure and puzzles to provide an engaging way to learn about disaster risk management. Built using Unity and C#, it delivers educational content through interactive gameplay.
+                                    </p>
+                                </div>
+                                <div class="card-footer">
+                                <i class="bi bi-git">View Code</i> |
+                                <i class="bi bi-file-earmark-arrow-down-fill">Download APK</i>
+@* 
+                                    <small class="text-muted">Last updated 3 mins ago</small> *@
+                                </div>
+                            
+                        </div>
+                    </div>
+                    <div class="col">
+                        <!-- Media -->
+                        <div class="h-100">
+
+                            <div id="carousel" class="carousel slide " data-bs-ride="carousel" data-bs-interval="5000">
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img src="/project/RescueBLUE/Images/MainMenu.jpg" class="d-block w-100" alt="Main Menu">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="/project/RescueBLUE/Images/Character.jpg" class="d-block w-100" alt="Character Selection">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="/project/RescueBLUE/Images/Stage.jpg" class="d-block w-100" alt="Stage Selection">
+                                        </div>
+                                        <div class="carousel-item ">
+                                            <img src="/project/RescueBLUE/Images/OverWorld.jpg" class="d-block w-100" alt="Over World">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="/project/RescueBLUE/Images/MN1.jpg" class="d-block w-100" alt="Mini Game">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="/project/RescueBLUE/Images/MN2.jpg" class="d-block w-100" alt="Mini Game">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="/project/RescueBLUE/Images/MN3.jpg" class="d-block w-100" alt="Mini Game">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="/project/RescueBLUE/Images/MN4.jpg" class="d-block w-100" alt="Mini Game">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="/project/RescueBLUE/Images/MN5.jpg" class="d-block w-100" alt="Mini Game">
+                                        </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    @* <!--CONTACT--> *@
+    <section id="contact" class="my-contact container-fluid px-0 mb-3 py-2">
+        <div class="container-lg px-0 py-2" >
             <div class="d-flex container-lg py-4 px-4 row justify-content-center mx-0">
                 <div class=" col-md-6 col-12 p-0">
                     <div class="title  text-center  text-md-start ">CONTACT</div>
@@ -333,7 +413,7 @@
                         <a href="https://www.linkedin.com/in/kristine-verna-moreno/" target="_blank" class="btn my-contact-btn btn-m me-1" aria-label="link in">
                             <i class="bi bi-linkedin"></i>
                         </a>
-                        <a href="../../docs/KristineVernaMoreno_CV_JSE.pdf" class="btn my-contact-btn btn-m me-1" download="KristineVernaMoreno.pdf" aria-label="VC">
+                        <a href="../../docs/KristineVernaMoreno_CV_JrSoftwareEng.pdf" class="btn my-contact-btn btn-m me-1" download="KristineVernaMoreno_CV_JrSoftwareEngineer.pdf" aria-label="VC">
                             Download CV
                         </a>
                     </div>
@@ -379,7 +459,7 @@
     </section>
 </main>
 
-<!--FOOTER-->
+@* <!--FOOTER--> *@
 <footer id="foot" class=" container-fluid mt-4 py-2">
     <div class="  d-flex column container-lg px-0">
         <div class=" col-md-12">
@@ -404,3 +484,4 @@
         </div>
     </div>
 </footer>
+

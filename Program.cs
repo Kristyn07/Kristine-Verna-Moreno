@@ -34,6 +34,9 @@ namespace KristineVernaMorenoV1._2
 
             app.UseAuthorization();
 
+            app.UseStatusCodePagesWithReExecute("/Error/NotFound");
+
+
             app.MapControllerRoute(
                 name: "default",
                 pattern: "{controller=Home}/{action=Index}/{id?}");

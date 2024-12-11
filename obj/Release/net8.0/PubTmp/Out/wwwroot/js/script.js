@@ -109,11 +109,13 @@ function dissableButton() {
     submitButton.disabled = true; 
     submitButton.style.display = 'none';
     loading.style.display = 'inline-block'; 
+
 }
 function enableButton() {
     submitButton.disabled = false; 
     submitButton.style.display = 'inline-block';  
     loading.style.display = 'none'; 
+
 }
 
 function submitForm() {
@@ -138,8 +140,12 @@ function submitForm() {
     xhr.onerror = function () {
         alert("Request failed. Please try again.");
     };
+    
 
     xhr.send(formData);
 }
 
 //#endregion
+
+
+

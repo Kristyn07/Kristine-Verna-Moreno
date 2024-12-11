@@ -26,6 +26,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\Kristine Verna\Desktop\TYN\KristineVernaMorenoV1.2
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/Kristine Verna/Desktop/TYN/KristineVernaMorenoV1.2/Views/Error/NotFound.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXJyb3JcTm90Rm91bmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Kristine Verna/Desktop/TYN/KristineVernaMorenoV1.2/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

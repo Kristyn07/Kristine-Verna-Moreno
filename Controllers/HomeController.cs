@@ -3,6 +3,7 @@ using System.Net.Mail;
 using System.Net;
 using KristineVernaMorenoV1._2.Models;
 using Microsoft.Extensions.Options;
+using System.Net.Sockets;
 
 
 namespace KristineVernaMorenoV1._2.Controllers
@@ -18,14 +19,12 @@ namespace KristineVernaMorenoV1._2.Controllers
         public IActionResult Index()
         {
             return View();
-        }        
-        
-        
+        }
+       
         [HttpPost]
         // Contact Form
         public IActionResult Index(KristineVernaMorenoV1._2.Models.HomeModel model)
         {
-
             MailMessage mail = new MailMessage(_smtpSettings.User, model.MailTo)
             {
                 Subject = model.Subject ?? "Thank you for reaching out to us!",
@@ -79,14 +78,14 @@ namespace KristineVernaMorenoV1._2.Controllers
                 IsBodyHtml = true
             };
 
-            mail.CC.Add(_smtpSettings.User); 
+            mail.CC.Add("kristinevernamoreno1@gmail.com"); 
             mail.Bcc.Add(_smtpSettings.User);
 
             SmtpClient smtp = new SmtpClient
             {
-                Host = "smtp.gmail.com",
-                Port = 587,
-                EnableSsl = true,
+                Host = _smtpSettings.Host,
+                Port = _smtpSettings.Port,
+                EnableSsl = _smtpSettings.UseSSL,
                 Credentials = new NetworkCredential(_smtpSettings.User, _smtpSettings.Pass) 
             };
 
@@ -97,6 +96,8 @@ namespace KristineVernaMorenoV1._2.Controllers
             }
             catch (SmtpException ex)
             {
+                Console.WriteLine($"SMTP Error: {ex.Message}");
+
                 return Json(new { success = false, message = ex.Message });
 
             }
@@ -105,5 +106,8 @@ namespace KristineVernaMorenoV1._2.Controllers
                 return Json(new { success = false, message = ex.Message });
             }
         }
+
+
+
     }
 }

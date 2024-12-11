@@ -12264,37 +12264,47 @@ header .my-nav-btn {
 
 #project {
   background-color: var(--project-bg-color);
+  /*
+
+
+  .postcard {
+      .card {
+          border-radius: 15px;
+      }
+
+
+
+      .postcard-img {
+          border-radius: 15px 15px 0px 0px;
+      }
+
+      .img-container {
+          height: 360px;
+          width: 100%;
+          background: pink;
+      }
+
+      &:hover .postcard-bar {
+          width: 100px;
+      }
+
+      &:hover .postcard-img {
+          transform: scale(1.05);
+          border-radius: 15px;
+      }
+  }*/
 }
-#project h1, #project .h1 {
-  font-size: 30px;
-  color: var(--project-title);
-  font-family: 600;
+#project h5, #project .h5 {
+  color: #00FFFF;
 }
-#project h2, #project .h2 {
-  font-size: 20px;
-  color: var(--project-title);
-  font-family: 600;
+#project p {
+  font-size: 15px;
 }
-#project .postcard .card {
-  border-radius: 15px;
-}
-#project .postcard .postcard-bar {
-  width: 50px;
-  height: 5px;
-  margin: 10px 0;
-  border-radius: 5px;
-  transition: width 0.2s ease;
-  background: var(--line-color);
-}
-#project .postcard .postcard-img {
-  border-radius: 15px 15px 0px 0px;
-}
-#project .postcard:hover .postcard-bar {
-  width: 100px;
-}
-#project .postcard:hover .postcard-img {
-  transform: scale(1.05);
-  border-radius: 15px;
+#project .carousel-item {
+  height: 280px;
+  object-fit: contain;
+  justify-content: center;
+  align-content: center;
 }
 
 #contact {

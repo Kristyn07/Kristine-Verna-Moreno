@@ -449,6 +449,10 @@
       "PackagePath": "staticwebassets\\project\\1\\images.jpg"
     },
     {
+      "Id": "C:\\Users\\Kristine Verna\\Desktop\\TYN\\KristineVernaMorenoV1.2\\wwwroot\\project\\RescueBLUE\\APK\\Rescue.BLUE.apk",
+      "PackagePath": "staticwebassets\\project\\RescueBLUE\\APK\\Rescue.BLUE.apk"
+    },
+    {
       "Id": "C:\\Users\\Kristine Verna\\Desktop\\TYN\\KristineVernaMorenoV1.2\\wwwroot\\project\\RescueBLUE\\Images\\Character.jpg",
       "PackagePath": "staticwebassets\\project\\RescueBLUE\\Images\\Character.jpg"
     },
@@ -483,6 +487,14 @@
     {
       "Id": "C:\\Users\\Kristine Verna\\Desktop\\TYN\\KristineVernaMorenoV1.2\\wwwroot\\project\\RescueBLUE\\Images\\Stage.jpg",
       "PackagePath": "staticwebassets\\project\\RescueBLUE\\Images\\Stage.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Kristine Verna\\Desktop\\TYN\\KristineVernaMorenoV1.2\\wwwroot\\project\\RescueBLUE\\Images\\logoFG.png",
+      "PackagePath": "staticwebassets\\project\\RescueBLUE\\Images\\logoFG.png"
+    },
+    {
+      "Id": "C:\\Users\\Kristine Verna\\Desktop\\TYN\\KristineVernaMorenoV1.2\\wwwroot\\project\\RescueBLUE\\Images\\logoFG.png~",
+      "PackagePath": "staticwebassets\\project\\RescueBLUE\\Images\\logoFG.png~"
     },
     {
       "Id": "C:\\Users\\Kristine Verna\\Desktop\\TYN\\KristineVernaMorenoV1.2\\wwwroot\\sass\\main.css",

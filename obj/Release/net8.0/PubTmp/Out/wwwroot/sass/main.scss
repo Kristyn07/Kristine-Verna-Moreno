@@ -243,10 +243,8 @@ header {
         }
     }*/
     //new
-    
-    h5 {
-        color: $color-cyan;
-    }
+
+
 
     p {
         font-size: 15px;
@@ -255,8 +253,36 @@ header {
     .carousel-item {
         height: 280px;
         object-fit: contain;
-        justify-content:center;
-        align-content:center;
+        justify-content: center;
+        align-content: center;
+    }
+
+    .project-logo {
+        width: auto;
+        height: 30px;
+        display: inline;
+    }
+
+    .project-title {
+        display: flex;
+        text-align: center;
+
+        h5 {
+            color: $color-cyan;
+            font-size: 25px;
+            margin-left: 5px;
+            font-family: SourceCodePro_SemiBold;
+        }
+    }
+
+    .project-code-link {
+        text-decoration: none;
+        transition: color 0.3s ease;
+        margin-right: 5px;
+    }
+
+    .project-code-link :hover {
+        color: $color-purple;
     }
 }
 

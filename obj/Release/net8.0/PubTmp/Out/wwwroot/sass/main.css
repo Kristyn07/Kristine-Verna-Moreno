@@ -55,6 +55,7 @@
   --skills-card-color: #fbfbfb;
   --skills-border-color-cardmain: #($color-cyan-shade-4);
   --project-bg-color: #fbfbfb;
+  --project-title: #00dbdb;
   --line-color: #00dbdb;
   --bg-color-btn-contact: #ebebeb;
   --color-btn-contact: #19191a;
@@ -82,6 +83,7 @@
   --skills-card-color: #19191a;
   --skills-border-color-card: #($color-cyan-tint-4);
   --project-bg-color: #19191a;
+  --project-title: #24ffff;
   --line-color: #24ffff;
   --bg-color-btn-contact: #19191a;
   --color-btn-contact: #ebebeb;
@@ -123,6 +125,7 @@
   --skills-card-color: #fbfbfb;
   --skills-border-color-cardmain: #($color-cyan-shade-4);
   --project-bg-color: #fbfbfb;
+  --project-title: #00dbdb;
   --line-color: #00dbdb;
   --bg-color-btn-contact: #ebebeb;
   --color-btn-contact: #19191a;
@@ -150,6 +153,7 @@
   --skills-card-color: #19191a;
   --skills-border-color-card: #($color-cyan-tint-4);
   --project-bg-color: #19191a;
+  --project-title: #24ffff;
   --line-color: #24ffff;
   --bg-color-btn-contact: #19191a;
   --color-btn-contact: #ebebeb;
@@ -12264,41 +12268,13 @@ header .my-nav-btn {
 
 #project {
   background-color: var(--project-bg-color);
-  /*
-
-
-  .postcard {
-      .card {
-          border-radius: 15px;
-      }
-
-
-
-      .postcard-img {
-          border-radius: 15px 15px 0px 0px;
-      }
-
-      .img-container {
-          height: 360px;
-          width: 100%;
-          background: pink;
-      }
-
-      &:hover .postcard-bar {
-          width: 100px;
-      }
-
-      &:hover .postcard-img {
-          transform: scale(1.05);
-          border-radius: 15px;
-      }
-  }*/
 }
 #project p {
   font-size: 15px;
 }
 #project .carousel-item {
-  height: 280px;
+  height: auto;
+  width: 100%;
   object-fit: contain;
   justify-content: center;
   align-content: center;
@@ -12313,7 +12289,7 @@ header .my-nav-btn {
   text-align: center;
 }
 #project .project-title h5, #project .project-title .h5 {
-  color: #00FFFF;
+  color: var(--project-title);
   font-size: 25px;
   margin-left: 5px;
   font-family: SourceCodePro_SemiBold;
@@ -12321,7 +12297,7 @@ header .my-nav-btn {
 #project .project-code-link {
   text-decoration: none;
   transition: color 0.3s ease;
-  margin-right: 5px;
+  margin-right: 8px;
 }
 #project .project-code-link :hover {
   color: #c762f6;

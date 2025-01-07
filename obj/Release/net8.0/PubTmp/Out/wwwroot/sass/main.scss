@@ -213,49 +213,20 @@ header {
 
 #project {
     background-color: var(--project-bg-color);
-    /*
     
-
-    .postcard {
-        .card {
-            border-radius: 15px;
-        }
-
-
-
-        .postcard-img {
-            border-radius: 15px 15px 0px 0px;
-        }
-
-        .img-container {
-            height: 360px;
-            width: 100%;
-            background: pink;
-        }
-
-        &:hover .postcard-bar {
-            width: 100px;
-        }
-
-        &:hover .postcard-img {
-            transform: scale(1.05);
-            border-radius: 15px;
-        }
-    }*/
-    //new
-
-
 
     p {
         font-size: 15px;
     }
 
     .carousel-item {
-        height: 280px;
+        height: auto;
+        width:100%;
         object-fit: contain;
         justify-content: center;
         align-content: center;
     }
+
 
     .project-logo {
         width: auto;
@@ -268,7 +239,7 @@ header {
         text-align: center;
 
         h5 {
-            color: $color-cyan;
+            color: var(--project-title);
             font-size: 25px;
             margin-left: 5px;
             font-family: SourceCodePro_SemiBold;
@@ -278,7 +249,7 @@ header {
     .project-code-link {
         text-decoration: none;
         transition: color 0.3s ease;
-        margin-right: 5px;
+        margin-right: 8px;
     }
 
     .project-code-link :hover {

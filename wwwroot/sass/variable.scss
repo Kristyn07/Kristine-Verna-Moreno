@@ -135,6 +135,7 @@ $skills-container-dark: #1B1D21;
     --skills-border-color-cardmain: #($color-cyan-shade-4);
     //recent project
     --project-bg-color: #{$color-main-light-2};
+    --project-title: #{$color-cyan-shade-6};
     --line-color: #{$color-cyan-shade-6};
     //contact
     --bg-color-btn-contact: #{$color-main-light-4};
@@ -169,6 +170,7 @@ $skills-container-dark: #1B1D21;
     --skills-border-color-card: #($color-cyan-tint-4);
     //recent project
     --project-bg-color: #{$color-main-dark-2};
+    --project-title: #{$color-cyan-tint-6};
     --line-color: #{$color-cyan-tint-6};
     //contact
     --bg-color-btn-contact: #{$color-main-dark-2};

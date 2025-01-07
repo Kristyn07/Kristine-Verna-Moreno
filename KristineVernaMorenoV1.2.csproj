@@ -58,7 +58,6 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="wwwroot\images\" />
-    <Folder Include="wwwroot\docs\" />
   </ItemGroup>
 
   <ItemGroup>

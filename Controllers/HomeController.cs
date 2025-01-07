@@ -65,7 +65,7 @@ namespace KristineVernaMorenoV1._2.Controllers
                                     <hr style='border: 1px solid #ecf0f1;'> 
 
                                     <p style='font-size: 12px; color: #34495e; margin-top:20px '>Best regards,</p>
-                                    <p style='font-size: 12px; color: #34495e;'>Kristine Verna Moreno<br>kristinevernamoreno1@gmail.com</p>
+                                    <p style='font-size: 12px; color: #34495e;'>Kristine Verna Moreno<br>contact@kristinevernamoreno.com</p>
         
                                     <p style='font-size: 12px; color: #95a5a6; text-align:center'>This is an automated response. Feel free to reply to this email if you have any further questions or need additional assistance.</p>
 

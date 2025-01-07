@@ -39,7 +39,7 @@ window.onresize = updateLayoutBasedOnScreenSize;
 
 //#region Color THEME BTN
 document.addEventListener('DOMContentLoaded', function () {
-    const savedTheme = localStorage.getItem('theme') || 'light';
+    const savedTheme = localStorage.getItem('theme') || 'dark';
     document.body.setAttribute('data-bs-theme', savedTheme);
 
     updateButtonVisibility(savedTheme);
@@ -101,22 +101,42 @@ navLinks.forEach(link => {
 });
 //#endregion
 
-//#region Submit Form
+//#region Form Data 
 var submitButton = document.getElementById('submit-btn');
 var loading = document.getElementsByClassName('load')[0];
+const formElements = document.querySelectorAll('form input, form textarea');
 
 function dissableButton() {
-    submitButton.disabled = true; 
+    submitButton.disabled = true;
+    toggleContentEditable(false);
     submitButton.style.display = 'none';
-    loading.style.display = 'inline-block'; 
+    loading.style.display = 'inline-block';
+
 
 }
 function enableButton() {
-    submitButton.disabled = false; 
-    submitButton.style.display = 'inline-block';  
-    loading.style.display = 'none'; 
+    submitButton.disabled = false;
+    toggleContentEditable(true);
+    submitButton.style.display = 'inline-block';
+    loading.style.display = 'none';
 
 }
+
+function toggleContentEditable(isEditable) {
+    formElements.forEach(element => {
+        if (isEditable) {
+            element.removeAttribute('readonly');
+            console.log("Editable");
+        } else {
+             element.setAttribute('readonly', true); 
+            console.log("Not Editable");
+        }
+    });
+}
+
+//#endregion
+
+//#region Submit Form
 
 function submitForm() {
     event.preventDefault();
@@ -146,6 +166,3 @@ function submitForm() {
 }
 
 //#endregion
-
-
-

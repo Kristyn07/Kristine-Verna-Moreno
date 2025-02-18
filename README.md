@@ -10,3 +10,5 @@ Informations
 --C#
 
 https://kristinevernamoreno-dbdxhpgzg2gcgjdw.southeastasia-01.azurewebsites.net
+
+https://kristinevernamoreno.com/

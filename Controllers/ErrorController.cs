@@ -6,9 +6,9 @@ namespace KristineVernaMorenoV1._2.Controllers
     {
 
         [Route("Error/NotFound")]
-        public IActionResult NotFound()
+        public new IActionResult NotFound()
         {
-            return View(); // This will look for Views/Error/NotFound.cshtml
+            return View("NotFound");
         }
     } 
 }

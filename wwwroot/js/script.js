@@ -166,3 +166,17 @@ function submitForm() {
 }
 
 //#endregion
+
+window.onloadTurnstileCallback = function () {
+    turnstile.render("#myWidgwt ", {
+        sitekey: "<0x4AAAAAAA__mDMdaqX0T52p>",
+        callback: function (token) {
+            console.log(`Challenge Success ${token}`);
+
+            setTimeout(() => {
+                document.querySelector(".container").style.display = "flex";
+                document.querySelector(".myWidget").style.display = "none";
+            }, 2000);
+        },
+    });
+};

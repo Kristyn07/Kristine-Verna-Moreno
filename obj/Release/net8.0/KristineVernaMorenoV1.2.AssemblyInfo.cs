@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("KristineVernaMorenoV1.2")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+73902515d2f1556249ffcca2b20097a985192a90")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ff67f95caa8741da2d1ea8dd577aae446bfa703f")]
 [assembly: System.Reflection.AssemblyProductAttribute("KristineVernaMorenoV1.2")]
 [assembly: System.Reflection.AssemblyTitleAttribute("KristineVernaMorenoV1.2")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
